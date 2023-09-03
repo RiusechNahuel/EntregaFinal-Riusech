@@ -1,0 +1,40 @@
+.logo{
+    width: 100px;
+}
+
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+/* Main */
+main {
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+}
+
+.textoInicio {
+    
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(33, 32, 34);
+}
