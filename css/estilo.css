@@ -1,4 +1,4 @@
-.logo{
+.logo {
     width: 100px;
 }
 
@@ -28,13 +28,53 @@ h1 {
 }
 
 .textoInicio {
-    
-    color:white;
+
+    color: white;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
 }
 
-body{
+body {
     background-color: rgb(33, 32, 34);
+}
+
+.contenedorGaleria {
+    margin: 10px;
+    border: 4px solid grey;
+    border-radius: 10px;
+
+}
+
+.galeriaFoto {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* iframe */
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.card {
+    margin: 1rem;
+    text-align: center;
+}
+
+.modal-title {
+    color: black;
+}
+
+.colorBtn {
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.colorBtn:hover {
+    background-color: red;
+    color: white;
 }
