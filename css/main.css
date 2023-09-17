@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 footer {
-  text-align: center;
   border-top: 1px solid black;
+  padding: 1.5rem 8%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 footer li {
   display: inline-block;
@@ -37,7 +44,7 @@ body {
 }
 
 .contenedorGaleria {
-  margin: 20px;
+  margin: 50px;
   border: 4px solid grey;
   border-radius: 10px;
 }

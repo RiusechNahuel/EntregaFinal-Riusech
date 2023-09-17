@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
     <!-- BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../img/favicon.ico">
 
 </head>
 
@@ -49,36 +51,49 @@
 
     <main>
         <h1> CONTACTO </h1>
-        <form>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="mb-3">
+                        <label for="nombre"> NOMBRE </label>
+                        <input type="text" id="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="apellido"> APELLIDO </label>
+                        <input type="text" id="apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="e-mail"> E-MAIL </label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comentarios"> COMENTARIOS </label>
+                        <input type="text" id="comentarios">
+                    </div class="mb-3">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
 
-            <label for="nombre"> NOMBRE </label>
-            <input type="text" id="nombre">
+                </div>
+                <input class="botonFormulario" type="submit">
+                <input class="botonFormulario" type="reset">
 
-            <label for="apellido"> APELLIDO </label>
-            <input type="text" id="apellido">
-
-            <label for="e-mail"> E-MAIL </label>
-            <input type="text" id="email">
-
-            <label for="comentarios"> COMENTARIOS </label>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
-
-            <input class="botonFormulario" type="submit">
-            <input class="botonFormulario" type="reset">
+        </div>
         </form>
-
-
+        </div>
     </main>
 
     <footer class="bg-dark">
         <nav>
             <ul>
-                <li> <a href="https://www.instagram.com" target="_blank"> <img src="../img/instagram.svg" alt="logo de instagram"> </a> </li>
-                <li> <a href="https://twitter.com/home" target="_blank"> <img src="../img/twitter.svg" alt="logo de twitter"> </a> </li>
-                <li> <a href="https://www.facebook.com" target="_blank"> <img src="../img/facebook.svg" alt="logo de Facebook"> </a> </li>
-                <li> <a href="https://www.youtube.com" target="_blank"> <img src="../img/youtube.svg" alt="logo de YouTube"> </a> </li>
+                <li> <a href="https://www.instagram.com" target="_blank"> <img src="../img/instagram.svg"
+                            alt="logo de instagram"> </a> </li>
+                <li> <a href="https://twitter.com/home" target="_blank"> <img src="../img/twitter.svg"
+                            alt="logo de twitter"> </a> </li>
+                <li> <a href="https://www.facebook.com" target="_blank"> <img src="../img/facebook.svg"
+                            alt="logo de Facebook"> </a> </li>
+                <li> <a href="https://www.youtube.com" target="_blank"> <img src="../img/youtube.svg"
+                            alt="logo de YouTube"> </a> </li>
             </ul>
-        </nav> 
+        </nav>
     </footer>
 
 
