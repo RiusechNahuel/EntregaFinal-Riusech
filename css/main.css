@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 footer {
   border-top: 1px solid black;
-  padding: 1.5rem 8%;
+  padding: 1rem 8%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -18,8 +18,8 @@ footer li {
 
 /* Main */
 main {
-  padding: 30px;
-  margin: 20px;
+  padding: 0px;
+  margin: 0px;
 }
 
 h1 {
@@ -35,11 +35,12 @@ h1 {
   font-size: 25px;
   margin: 50px;
   padding: 10;
+  font-style: "Roboto", sans-serif;
 }
 
 body {
   background-color: rgb(33, 32, 34);
-  font-family: "Roboto";
+  font-style: "Roboto", sans-serif;
   font-size: 25px;
 }
 
@@ -89,16 +90,14 @@ iframe {
 form {
   margin-top: 0px;
 }
-
-label {
+form label {
   display: block;
   font-weight: bold;
-  margin-bottom: 5px;
   color: white;
+  margin-bottom: 10px;
 }
-
-input[type=text],
-textarea {
+form input[type=text],
+form textarea {
   display: block;
   width: 100%;
   padding: 10px;
@@ -107,8 +106,7 @@ textarea {
   font-size: 16px;
   margin-bottom: 10px;
 }
-
-.botonFormulario {
+form .botonFormulario {
   background-color: rgb(207, 35, 35);
   color: white;
   border: solid 1px;
