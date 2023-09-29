@@ -4,10 +4,19 @@
     font-family: $mainFont;
     padding-left: 0px;
     padding-right: 50px;
+@include mobile{
+    font-size: $textMdm;
+}
 }
 
 
 .logo {
     width: 350px;
     margin-left: 0;
+
+@include mobile {
+    width: 200px
 }
+
+}
+

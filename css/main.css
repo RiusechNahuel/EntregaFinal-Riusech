@@ -106,16 +106,40 @@ form .botonFormulario {
   margin-top: 10px;
 }
 
+.errorA {
+  width: 100%;
+}
+
+.errorB {
+  font-size: 50px;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: gray;
+  margin-left: 20px;
+}
+
 .navbar-nav {
   font-size: 2em;
   font-family: "Roboto", sans-serif;
   padding-left: 0px;
   padding-right: 50px;
 }
+@media screen and (max-width: 576px) {
+  .navbar-nav {
+    font-size: 1em;
+  }
+}
 
 .logo {
   width: 350px;
   margin-left: 0;
+}
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 200px;
+  }
 }
 
 .colorBtn {
